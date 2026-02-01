@@ -1,0 +1,12 @@
+body{
+font-family: Arial;
+text-align:center;
+}
+
+
+#drawingArea{
+border:2px solid black;
+width:800px;
+height:400px;
+cursor:crosshair;
+}
