@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Commerce Product Page</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<h2>Product Store</h2>
+
+
+<select id="filter" onchange="filterProducts()">
+<option value="all">All</option>
+<option value="electronics">Electronics</option>
+<option value="fashion">Fashion</option>
+</select>
+
+
+<select id="sort" onchange="sortProducts()">
+<option value="low">Price Low to High</option>
+<option value="high">Price High to Low</option>
+</select>
+
+
+<div id="products"></div>
+<script src="script2.js"></script>
+</body>
+</html>
